@@ -24,10 +24,11 @@ public class consoantes {
             }
             count++;
         } while (count < consoantes.length);
-        
+
+        System.out.println("quantidade de consoantes: "+ quantConsoantes);
         for (String consoante : consoantes) {
             if (consoante != null) {
-                System.out.println(consoante);
+                System.out.print(consoante + " ");
             }
             
         }
